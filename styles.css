@@ -12,8 +12,8 @@ body {
 #colorOfTheDay {
     height: 160px;
     color: beige;
-    border: 1px solid rgb(250, 182, 182);
-    border-radius: 10px;
+    border: 1px solid rgb(249, 221, 221);
+    border-radius: 5px;
     padding: 30px;
     font-size: x-large;
     font-weight: bold;
@@ -21,6 +21,7 @@ body {
 
 #colorButton,
 #clearButton {
+    width: 250px;
     padding: 10px;
     font-weight: bold;
     display: flex;
@@ -30,7 +31,7 @@ body {
     color: darkorange;
     background-color: purple;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
@@ -48,6 +49,7 @@ body {
     padding: 10px;
     display: block;
     margin-bottom: 10px;
+    border: 1px solid;
     border-radius: 10px;
-    width: 420px;
+    width: 480px;
 }
